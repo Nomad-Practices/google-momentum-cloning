@@ -1,0 +1,40 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 40px 18px; */
+  padding: 40px 15px 18px 18px;
+  margin-bottom: 15px;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.screen-header__icons span {
+  margin-left: 25px;
+}
+.screen-header__news-parent {
+  position: relative;
+}
+.screen-header__news {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: -8px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}
