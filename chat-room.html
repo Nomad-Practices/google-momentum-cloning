@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoa Clone</title>
+    <script src="https://kit.fontawesome.com/b98b5bbdbb.js" crossorigin="anonymous"></script>
+</head>
+<body id="chat-room-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi fa-lg"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt fa-lg"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Just chatting</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-2x"></i>
+            <span><i class="fas fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+
+        <div class="message-row">
+            <img src="img/ironman-helmet.png" alt="">
+            <div class="message-row__content">
+                <span class="message__author">Iron man</span>
+                <div class="message__info">
+                    <span class="message__bubble">What are you guys doing so far?</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Jarvis, two cheese burgers please~</span>
+                    <span class="message__time">21:29</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="img/steve-rogers.jpg" alt="">
+            <div class="message-row__content">
+                <span class="message__author">Steve Rogers</span>
+                <div class="message__info">
+                    <span class="message__bubble">What's Fondue?</span>
+                    <span class="message__time">21:33</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">and also a giant coke!</span>
+                    <span class="message__time">21:29</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="img/romanoff.jpg" alt="">
+            <div class="message-row__content">
+                <span class="message__author">Natasha Romanoff</span>
+                <div class="message__info">
+                    <span class="message__bubble">Have you seen Clint? I can't find him.</span>
+                    <span class="message__time">21:40</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="img/hulk.jpg" alt="">
+            <div class="message-row__content">
+                <span class="message__author">Bruce Banner</span>
+                <div class="message__info">
+                    <span class="message__bubble">HULK SMASH!!!!!!!</span>
+                    <span class="message__time">21:59</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Maybe he is on the roof, I think...</span>
+                    <span class="message__time">22:11</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="img/hulk.jpg" alt="">
+            <div class="message-row__content">
+                <span class="message__author">Bruce Banner</span>
+                <div class="message__info">
+                    <span class="message__bubble">HULK IS HUNGRY!!!!</span>
+                    <span class="message__time">22:15</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="img/black-panther.jpg" alt="">
+            <div class="message-row__content">
+                <span class="message__author">T'Challa</span>
+                <div class="message__info">
+                    <span class="message__bubble">Wait.. Am i supposed to be here?</span>
+                    <span class="message__time">21:59</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="far fa-grin-wink"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="only-ipad">
+        <p>Only Ipad is available. Screen configuration is needed.</p>
+    </div>
+</body>
+</html>
