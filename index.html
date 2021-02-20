@@ -1,46 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Clone</title>
-    <script src="https://kit.fontawesome.com/b98b5bbdbb.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
 </head>
 <body>
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi fa-lg"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt fa-lg"></i>
-        </div>
-    </div>
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">
-            If you have a Kokoa Account, log in with your email or phone number.
-        </p>
-    </header>
-    <form action="friends.html" method="GET" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number">
-        <input name="password" type="text" placeholder="Password">
-        <input type="submit" value="Log In">
-        <input type="submit" value="Sign Up">
-        <a href="#">Find Kakao Account or Password</a>
-    </form>
+  <div class="js-clock">
+    <h1 class="js-title">00:00:00</h1>
+  </div>
 
-    <div id="splash-screen">
-        <i class="fas fa-comment fa-2x"></i>
-    </div>
-    <!-- <div id="only-ipad">
-        <p>Only iPad is available. Screen configuration is needed.</p>
-    </div> -->
+  <form action="" class="js-form form">
+    <input type="text" placeholder="What is your name?">
+  </form>
+  
+  <h4 class="js-greetings greetings"></h4>
+
+  <form action="" class="js-toDoForm">
+    <input type="text" placeholder="Write To-Do here">
+  </form>
+
+  <ul class="js-toDoList">
+  </ul>
+  
+  <span class="js-weather"></span>
+
+  <script src="clock.js"></script>
+  <script src="greeting.js"></script>
+  <script src="todo.js"></script>
+  <script src="bg.js"></script>
+  <script src="weather.js"></script>
 </body>
 </html>
